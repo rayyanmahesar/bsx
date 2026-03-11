@@ -10,6 +10,9 @@ export default function LandingPage() {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
+    // Set page title
+    document.title = 'BlueStoneX';
+    
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
       if (scrollPosition > 300) {
