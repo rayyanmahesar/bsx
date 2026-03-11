@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import StarsBackground from '../components/StarsBackground';
 import { motion } from 'motion/react';
@@ -11,6 +11,11 @@ export default function SellPage() {
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
+
+  useEffect(() => {
+    // Set page title
+    document.title = 'BlueStoneX / Sell My Business';
+  }, []);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -108,7 +113,7 @@ export default function SellPage() {
 
               <button
                 type="submit"
-                className="w-full px-8 py-4 bg-white text-black rounded-lg font-semibold hover:shadow-[0_0_20px_rgba(255,255,255,0.6)] transition-all duration-300 text-lg"
+                className="w-full px-8 py-4 bg-white text-black rounded-lg font-semibold hover:shadow-[0_0_20px_rgba(255,255,255,0.6)] transition-all duration-300 text-lg disabled:opacity-50 disabled:cursor-not-allowed"
                 disabled={isSubmitting}
               >
                 {isSubmitting ? 'Submitting...' : 'Join Seller Waitlist'}
