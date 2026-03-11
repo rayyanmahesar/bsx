@@ -1,0 +1,123 @@
+Figma Prompt for BSX Website (Full 3 Pages)
+
+Design a full responsive website UI for “BlueStoneX (BSX)” with a dark theme (#000000 background) and white/glow accents. The website should have 3 pages: Landing Page, Buy Page, and Sell Page. Include the following details:
+
+1. Navigation (All Pages)
+
+Fixed top navbar with logo on left (logo.png)
+
+Menu on right: Home | Buy | Sell
+
+Navbar background: semi-transparent black (rgba(0,0,0,0.8))
+
+Navbar should remain visible on scroll
+
+2. Landing Page (index.html)
+
+Hero Section
+
+Full viewport height hero
+
+Logo (BlueStoneX) in large text with glow animation on each character
+
+Header: “Buy and sell businesses – Securely”
+
+Subtext: “A modern marketplace designed to connect entrepreneurs, investors, and business owners looking to buy or sell businesses.”
+
+Two CTA buttons centered below:
+
+“I want to buy a business” → links to Buy page
+
+“I want to sell my business” → links to Sell page
+
+Buttons style: rounded corners, white background, black text, hover glow effect
+
+Features Section (Scroll Animation)
+
+Three horizontal containers with matching icons/images:
+
+Secure Transactions – lock icon, text: “Helping buyers and sellers connect with confidence.”
+
+Serious Buyers – entrepreneur/buyer icon, text: “Designed for entrepreneurs actively looking to acquire businesses.”
+
+New Opportunities – opportunity icon, text: “Discover business opportunities across industries.”
+
+Containers animate (fade-in + rise) on scroll
+
+Last Call Section
+
+Header: “Looking to Buy a Business?”
+
+Subtext:
+
+“Discover business acquisition opportunities”
+
+“Connect with business owners”
+
+“Find your next entrepreneurial venture”
+
+Footer
+
+Instagram link: @bluestonex_
+
+Simple, centered text
+
+Background
+
+Black (#000000)
+
+Glowing falling stars animation across the entire page
+
+3. Buy Page (buy.html)
+
+Same navbar + background (dark + stars)
+
+Centered form container:
+
+Header: “Buy a Business”
+
+Subtext: “BlueStoneX is building a modern marketplace where entrepreneurs can discover business acquisition opportunities.”
+
+Form fields: Name, Email
+
+Submit button: “Join Buyer Waitlist”
+
+Form submits data to Google Sheet (design can indicate integration)
+
+4. Sell Page (sell.html)
+
+Same navbar + background (dark + stars)
+
+Centered form container:
+
+Header: “Sell a Business”
+
+Subtext: “BlueStoneX is building a modern marketplace where business owners can connect with serious buyers and list their opportunities securely.”
+
+Form fields: Name, Email
+
+Submit button: “Join Seller Waitlist”
+
+Form submits data to Google Sheet
+
+5. General Styling Notes
+
+Dark theme: Black background, white text, glowing white accents
+
+Responsive design: works for desktop and mobile
+
+Buttons and forms: rounded, subtle shadows/glow
+
+Sections separated with spacing/padding for clean layout
+
+Images/icons for features: lock, buyers, opportunities
+
+All animations: hero logo glow, features fade-in on scroll, falling stars background
+
+6. Deliverables
+
+3 page Figma design: Landing Page, Buy Page, Sell Page
+
+Include responsive frames for desktop and mobile
+
+Include all interactive states (button hover, scroll animation hints)
