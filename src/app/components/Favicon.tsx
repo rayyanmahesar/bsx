@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import faviconImage from 'src/app/components/assets/favicon.png';
+import faviconImage from 'public/favicon.png';
 
 export default function Favicon() {
   useEffect(() => {
